@@ -1,0 +1,67 @@
+﻿.error
+{
+ border:1px solid red;
+}
+
+.visible
+{
+	visibility: visible;
+	
+}
+
+.hidden
+{
+	visibility: collapse;
+	
+}
+
+html{
+  
+  margin: 10px
+  
+}
+
+.navbar-fixed-bottom
+{
+  background-color: #f9f9f9;
+  height: 100px;
+  
+}
+
+.header-left
+{
+  /*margin-left: 30px;*/
+  position: relative;
+  display:inline;
+}
+
+.header-right
+{
+  /*margin-right: 30px;*/
+  float: right;
+  display:inline;
+ 
+}
+
+.footer-left
+{
+  margin-left: 30px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);  
+  
+}
+
+.footer-right
+{
+  margin-right: 30px;
+  float: right;
+  transform: translateY(-50%);    
+  
+}
+
+[disabled] {
+  background-color: #bdbdbd;
+}
+
+.modal .modal-dialog { width: 1100px; }
